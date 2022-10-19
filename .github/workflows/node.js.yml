@@ -6,7 +6,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [16.13.1]  # 把 node.js 版本記錄在這，之後可以重新取出作為 cache key
+        node-version: [18.]  # 把 node.js 版本記錄在這，之後可以重新取出作為 cache key
 
     steps:
     - uses: actions/checkout@v2
